@@ -13,6 +13,7 @@
           <fieldset [disabled]="isSubmitting">
             <fieldset class="form-group">
               <input
+                #username
                 formControlName="username"
                 placeholder="Username"
                 class="form-control form-control-lg"
@@ -21,6 +22,7 @@
             </fieldset>
             <fieldset class="form-group">
               <input
+                #email
                 formControlName="email"
                 placeholder="Email"
                 class="form-control form-control-lg"
@@ -28,6 +30,7 @@
             </fieldset>
             <fieldset class="form-group">
               <input
+                #password
                 formControlName="password"
                 placeholder="Password"
                 class="form-control form-control-lg"
